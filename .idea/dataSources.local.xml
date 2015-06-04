@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails escape_and_renew: development" uuid="6ab54cf8-b786-4471-aef9-c80ffeffaeb3">
+      <secret-storage>memory</secret-storage>
+    </data-source>
+    <data-source name="Rails escape_and_renew: test" uuid="151c1d8e-218a-477d-8468-6ca9b1c1b0ad">
+      <secret-storage>memory</secret-storage>
+    </data-source>
+  </component>
+</project>

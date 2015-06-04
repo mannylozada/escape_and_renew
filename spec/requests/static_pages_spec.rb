@@ -11,7 +11,12 @@ describe "StaticPages" do
 
     it "should have the title 'Sample App'" do
       visit '/static_pages/home'
-      expect(page).to have_title("Escape & Renew | Home")
+      expect(page).to have_title("Escape & Renew Spa")
+    end
+
+    it "should not have a custom page title" do
+      visit '/static_pages/home'
+      expect(page).not_to have_title('| Home')
     end
 
   end
@@ -25,7 +30,7 @@ describe "StaticPages" do
 
     it "should have the title 'Help'" do
       visit '/static_pages/help'
-      expect(page).to have_title("Escape & Renew | Help")
+      expect(page).to have_title("Escape & Renew Spa | Help")
     end
 
   end
@@ -39,7 +44,7 @@ describe "StaticPages" do
 
     it "should have the title 'About Us'" do
       visit '/static_pages/about'
-      expect(page).to have_title("Escape & Renew | About Us")
+      expect(page).to have_title("Escape & Renew Spa | About Us")
     end
 
 
